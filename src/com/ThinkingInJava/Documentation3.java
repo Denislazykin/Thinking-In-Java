@@ -5,7 +5,7 @@ import java.util.*;
 // object/Documentation3.java
 
 /**
- * You can even insert a list:
+ * Вы даже можете вставить список:
  * <ol>
  * <li> Item one
  * <li> Item two

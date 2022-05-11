@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * <pre>
- * Uses
+ * Использует
  * System.out.println(new Date());
  * </pre>
  */

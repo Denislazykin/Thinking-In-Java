@@ -1,4 +1,4 @@
-package com.ThinkingInJava;
+package com.ThinkingInJava.everythingIsAnObject;
 
 /**
  * A class comment

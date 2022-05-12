@@ -1,4 +1,4 @@
-package com.ThinkingInJava;
+package com.ThinkingInJava.everythingIsAnObject;
 
 public class StaticTest {
     static int i = 47;

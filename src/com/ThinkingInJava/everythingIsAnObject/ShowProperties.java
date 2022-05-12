@@ -1,4 +1,4 @@
-package com.ThinkingInJava;
+package com.ThinkingInJava.everythingIsAnObject;
 
 public class ShowProperties {
     public static void main(String[] args) {

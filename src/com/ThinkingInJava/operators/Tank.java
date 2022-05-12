@@ -3,6 +3,7 @@ package com.ThinkingInJava.operators;
 public class Tank {
     int level;
 }
+
 class Assignment {
     public static void main(String[] args) {
         Tank t1 = new Tank();

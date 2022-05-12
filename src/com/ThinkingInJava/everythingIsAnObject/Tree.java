@@ -1,4 +1,4 @@
-package com.ThinkingInJava;
+package com.ThinkingInJava.everythingIsAnObject;
 
 /**
  * создаем дерево типов с двумя конструкторами и одним информационным методом

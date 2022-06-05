@@ -1,7 +1,10 @@
 package com.ThinkingInJava.controlStructures;
 
 import java.util.Random;
-
+/*
+Генерируем 25 случайных значений
+Сравниваем их, выводим на экран
+ */
 class Random25 {
     public static void main(String[] args) {
         Random rand1 = new Random();

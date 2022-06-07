@@ -1,4 +1,5 @@
 package com.ThinkingInJava.initializationAndCompletion;
+
 /*
 Инициализациия в точке определения
 и в конструкторе.

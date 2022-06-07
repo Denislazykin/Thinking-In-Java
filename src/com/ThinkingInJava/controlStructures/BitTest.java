@@ -1,4 +1,5 @@
 package com.ThinkingInJava.controlStructures;
+
 /*
 Поразрядная проверка для ввода 0 и 1
  */

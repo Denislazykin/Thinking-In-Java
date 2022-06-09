@@ -32,6 +32,14 @@ public class Dog {
     void bark(double d) {
         System.out.println("dodo");
     }
+
+    void bark(char c, int i) {
+        System.out.println("caw-iyow");
+    }
+
+    void bark(int i, char c) {
+        System.out.println("iyow-caw");
+    }
 }
 
 class DogTalk {
@@ -48,5 +56,7 @@ class DogTalk {
         d.bark(1L);
         d.bark(1.0f);
         d.bark(1.0);
+        d.bark(c, 1);
+        d.bark(1, c);
     }
 }

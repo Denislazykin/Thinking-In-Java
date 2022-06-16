@@ -4,31 +4,33 @@ package com.ThinkingInJava.initializationAndCompletion;
  * Учимся применять finalize
  */
 class Duck {
-    boolean checkedOut = false;
-
-    Duck(boolean checkedOut) {
-        checkedOut = checkedOut;
+    boolean loggedIn = false;
+    Duck(boolean logStatus) {
+        loggedIn = logStatus;
     }
-
-    void checkIn() {
-        checkedOut = false;
+    void logIn() {
+        loggedIn = true;
     }
-
-    public void finalise() {
-        if (checkedOut) {
-            System.out.println("Error: checkedOut");
-        }
+    void logOut() {
+        loggedIn = false;
+    }
+    protected void finalize() {
+        if(loggedIn)
+            System.out.println("Error: still logged in");
+        // Normally, you'll also do this:
+        // super.finalize(); // Call the base-class version
     }
 }
 
 class TerminalCondition {
     public static void main(String[] args) {
-        Duck scruj = new Duck(true);
-        //Correct clean
-        scruj.checkIn();
-        //Lost the link, forgot about clean
+        Duck duck = new Duck(true);
+        Duck duck1 = new Duck(true);
+        // Proper cleanup: log out of bank1 before going home
+        duck.logOut();
+        // Drop the reference, forget to cleanup:
         new Duck(true);
-        //Forced clean and finalize
+        // Force garbage collection and finalization:
         System.gc();
     }
 }

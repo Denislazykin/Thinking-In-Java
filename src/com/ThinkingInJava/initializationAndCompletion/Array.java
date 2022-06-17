@@ -5,6 +5,8 @@ package com.ThinkingInJava.initializationAndCompletion;
 Выводим значение аргумента во время конструирования
 Создаем массив ссылок на этот класс,
 но не создаем объекты, которые заполнят массив.
+
+UPD. создал объекты, которыми заполняется массив
  */
 public class Array {
     public Array(String s) {
@@ -15,6 +17,9 @@ public class Array {
 
 class ArrayTest {
     public static void main(String[] args) {
-        ArrayTest[] arrayTest = new ArrayTest[10];
+        Array[] arrayTest = new Array[4];
+        for (int i = 0; i < arrayTest.length; i++) {
+            arrayTest[i] = new Array(Integer.toString(i));
+        }
     }
 }

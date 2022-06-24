@@ -5,7 +5,9 @@ class SomeData {
 }
 
 class DataChanger {
-   protected static void change(SomeData sd, int i) { sd.a = i; }
+    protected static void change(SomeData sd, int i) {
+        sd.a = i;
+    }
 }
 
 public class ProtectedData {

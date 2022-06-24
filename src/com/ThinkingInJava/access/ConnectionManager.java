@@ -20,7 +20,15 @@ public class ConnectionManager {
     }
 
     public static void main(String[] args) {
-        System.out.println(Connection.makeConnection());
+        ConnectionManager cm = new ConnectionManager();
+        System.out.println(cm.howManyLeft);
+        cm.getConnection();
+        System.out.println(howManyLeft);
+        cm.getConnection();
+        System.out.println(howManyLeft);
+        cm.getConnection();
+        System.out.println(cm.getConnection());
+        System.out.println(howManyLeft);
 
     }
 }

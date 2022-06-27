@@ -6,6 +6,6 @@ public class Shape {
     }
 
     void dispose() {
-        System.out.println("Compliting Shape");
+        System.out.println("Completing Shape");
     }
 }

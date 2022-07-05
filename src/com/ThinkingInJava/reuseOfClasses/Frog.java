@@ -1,4 +1,4 @@
-package com.ThinkingInJava;
+package com.ThinkingInJava.reuseOfClasses;
 
 class Amphibian {
     protected void swim() {

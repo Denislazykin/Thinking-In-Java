@@ -6,4 +6,8 @@ public class Shape {
 
     public void erase() {
     }
+
+    public void move(){
+        System.out.println("Shape.move()");
+    }
 }

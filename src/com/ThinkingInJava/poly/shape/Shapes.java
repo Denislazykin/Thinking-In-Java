@@ -12,6 +12,8 @@ public class Shapes {
         //полиморфные вызовы методов
         for (Shape shape : shapes) {
             shape.draw();
+            shape.erase();
+            shape.move();
         }
     }
 }

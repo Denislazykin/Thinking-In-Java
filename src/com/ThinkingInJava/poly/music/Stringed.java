@@ -1,18 +1,18 @@
 package com.ThinkingInJava.poly.music;
 
-public class Wind extends Instrument {
+public class Stringed extends Instrument {
     @Override
     public void play(Note note) {
-        System.out.println("Wind.play() " + note);
+        System.out.println("Stringed.play() " + note);
     }
 
     @Override
     String what() {
-        return "Wind";
+        return "Stringed";
     }
 
     @Override
     void adjust() {
-        System.out.println("Adjusting Wind");
+        System.out.println("Stringed Wind");
     }
 }

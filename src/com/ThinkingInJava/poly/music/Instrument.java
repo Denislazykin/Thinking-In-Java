@@ -2,10 +2,10 @@ package com.ThinkingInJava.poly.music;
 
 public class Instrument {
     public void play(Note note) {
-        System.out.println("Instrument.play()");
+        System.out.println("Instrument.play()" + note);
     }
 
-    String what() {
+    public String toString()  {
         return "Instrument";
     }
 

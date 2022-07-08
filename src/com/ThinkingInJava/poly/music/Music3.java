@@ -25,5 +25,8 @@ public class Music3 {
                 new Woodwind(),
         };
         tuneAll(orchestra);
+        for (Instrument instrument : orchestra) {
+            System.out.println(instrument);
+        }
     }
 }

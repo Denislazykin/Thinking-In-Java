@@ -7,7 +7,7 @@ public class Woodwind extends Wind {
     }
 
     @Override
-    String what() {
+    public String toString()  {
         return "Woodwind";
     }
 

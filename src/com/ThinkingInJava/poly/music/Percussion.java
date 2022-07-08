@@ -7,7 +7,7 @@ public class Percussion extends Instrument {
     }
 
     @Override
-    String what() {
+    public String toString()  {
         return "Percussion";
     }
 

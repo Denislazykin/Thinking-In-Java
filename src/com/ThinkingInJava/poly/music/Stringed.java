@@ -7,7 +7,7 @@ public class Stringed extends Instrument {
     }
 
     @Override
-    String what() {
+    public String toString()  {
         return "Stringed";
     }
 

@@ -13,6 +13,6 @@ public class Stringed extends Instrument {
 
     @Override
     void adjust() {
-        System.out.println("Stringed Wind");
+        System.out.println("Adjusting Stringed");
     }
 }

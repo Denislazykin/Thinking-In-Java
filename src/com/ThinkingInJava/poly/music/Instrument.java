@@ -5,7 +5,7 @@ public class Instrument {
         System.out.println("Instrument.play()" + note);
     }
 
-    public String toString()  {
+    public String toString() {
         return "Instrument";
     }
 

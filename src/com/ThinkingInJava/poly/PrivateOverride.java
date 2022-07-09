@@ -1,7 +1,7 @@
 package com.ThinkingInJava.poly;
 
 public class PrivateOverride {
-    private void f(){
+    private void f() {
         System.out.println("private f()");
     }
 
@@ -10,8 +10,9 @@ public class PrivateOverride {
         privateOverride.f();
     }
 }
-class Derived extends PrivateOverride{
-    public void f(){
+
+class Derived extends PrivateOverride {
+    public void f() {
         System.out.println("public f()");
     }
 }

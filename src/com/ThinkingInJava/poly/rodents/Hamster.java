@@ -5,6 +5,11 @@ public class Hamster extends Rodent {
     private Characteristic c = new Characteristic("big cheeks");
     private Description d = new Description("spinning the wheel");
 
+    public Hamster(Shared shared) {
+        super(shared);
+        System.out.println("Hamster()");
+    }
+
     @Override
     public void run() {
         System.out.println("Hamster.run();");

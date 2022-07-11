@@ -2,6 +2,8 @@ package com.ThinkingInJava.poly.rodents;
 
 public class Mouse extends Rodent {
     private String name = "Mouse";
+    private Characteristic c = new Characteristic("like cheese");
+    private Description d = new Description("nocturnal");
 
     @Override
     public void run() {

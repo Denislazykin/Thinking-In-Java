@@ -2,6 +2,8 @@ package com.ThinkingInJava.poly.rodents;
 
 public class Hamster extends Rodent {
     private String name = "Hamster";
+    private Characteristic c = new Characteristic("big cheeks");
+    private Description d = new Description("spinning the wheel");
 
     @Override
     public void run() {

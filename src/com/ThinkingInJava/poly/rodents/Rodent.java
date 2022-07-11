@@ -2,6 +2,8 @@ package com.ThinkingInJava.poly.rodents;
 
 public class Rodent {
     private String name = "Rodent";
+    private Characteristic c = new Characteristic("has tail");
+    private Description d = new Description("small mammal");
 
     public void run() {
         System.out.println("Rodent.run();");

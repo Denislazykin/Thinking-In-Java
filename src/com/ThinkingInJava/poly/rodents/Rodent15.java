@@ -1,6 +1,6 @@
 package com.ThinkingInJava.poly.rodents;
 
-public class Rodent14 {
+public class Rodent15{
     private static RandomRodentGenerator gen = new RandomRodentGenerator();
 
     public static void main(String[] args) {
